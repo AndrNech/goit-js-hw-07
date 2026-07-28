@@ -40,9 +40,6 @@ const items = images.map(({url, alt}) => {
   return li;
 })
 
-console.log(items);
-console.log(typeof li);
-
 gallery.append(...items);
 
 
